@@ -1,0 +1,108 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.navigationBar {
+  background-color: white;
+}
+
+.logo {
+  width: 40px;
+}
+
+.navigationItem,
+.navigationHeader {
+  color: red;
+}
+
+.navButtons {
+  margin-left: auto;
+}
+
+.navigationItem {
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.navigationItem:hover {
+  background-color: red;
+  color: white;
+  height: 50px;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  margin: 50px auto 0 auto;
+}
+
+.item {
+  width: 24%;
+}
+
+.itemImage img {
+  height: 250px;
+  width: 220px;
+  object-fit: object-fit;
+}
+
+.itemDetails {
+  display: flex;
+  height: 50px;
+  margin-top: -5px;
+}
+
+.productName {
+  width: 170px;
+  background-color: #c6c6c6;
+}
+
+.addToCartBtn {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.addProductDetails {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.addProductDetails #addProductName {
+  width: 60vw;
+}
+
+.addProductBtn {
+  background-color: red;
+  color: white;
+  width: 15%;
+  height: 50px;
+  margin-top: 20px;
+  align-self: flex-end;
+}
+
+.header {
+  margin: 20px auto 0 auto;
+  padding: 20px 0 0 30px;
+  width: 70vw;
+  height: 50px;
+  background-color: red;
+  color: white;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.orderTable {
+  width: 70%;
+  margin: 15px auto 0 auto;
+}
+
+.order .cell {
+  border: 1px solid black;
+}
